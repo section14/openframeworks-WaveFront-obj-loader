@@ -30,7 +30,6 @@ private:
 
     std::map<int,ofVec3f>faceVertices;
     std::map<int,ofVec3f>faceNormals;
-    std::vector<ofIndexType>faceIndices;
 
     int indexCount;
 
