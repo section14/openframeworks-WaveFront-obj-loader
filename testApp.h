@@ -10,7 +10,7 @@ class testApp : public ofBaseApp{
 		void update();
 		void draw();
 
-		waveFrontLoader *objectLoader;
+	waveFrontLoader *objectLoader;
         ofMesh mesh;
         ofEasyCam camera;
         ofLight light;
