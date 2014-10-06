@@ -7,7 +7,9 @@ This was made to be used with models exported from Blender, but should run fine 
 
 This script will also parse material files (.mtl) along with .obj files. Material files must be named the same as the object file (ie. model.obj / model.mtl). A simple method call toggles between the two.
 
+```
 objLoader->loadMaterial(true); //loads material file
 objLoader->loadMaterial(false); //doesn't load material file
+```
 
 As it stands, this imports the model and materials only, discarding texture information. It may be a future add on, or you can feel free to fork the code.
