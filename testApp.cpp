@@ -12,6 +12,7 @@ void testApp::setup()
     light.setPosition(10,30,-25);
 
     objectLoader = new waveFrontLoader();
+    objectLoader->loadMaterial(true); //true or false depending on if a .mtl file exists
     objectLoader->loadFile("test.obj");
     mesh = objectLoader->generateMesh();
     delete objectLoader;
